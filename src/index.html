@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='en' ng-app='hotelier'>
     <head>
         <meta charset='utf-8'>
         <title>Hotelier</title>
@@ -11,5 +11,33 @@
     </head>
     <body>
         <h1>Hotelier</h1>
-    </body>
+
+        <nav>
+         <ul>
+           <li><a ui-sref='home'>home</a></li>
+           <li><a ui-sref='roomsAvailable'>room availbility</a></li>
+           <li><a ui-sref='createGuest'>create guest</a></li>
+           <li><a ui-sref='createReservation'>create reservation</a></li>
+           <li><a ui-sref='allRes'>reservations</a></li>
+           <li><a ui-sref='login'>staff login</a></li>
+           <li><a ui-sref='guestList'>guest list</a></li>
+         </ul>
+       </nav>
+
+        <main ui-view></main>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js'></script>
+        <script src='js/hotelier.module.js'></script>
+        <script src='js/allReservations.controller.js'></script>
+        <script src='js/allReservations.service.js'></script>
+        <script src='js/login.controller.js'></script>
+        <script src='js/login.service.js'></script>
+        <script src='js/rooms-available.controller.js'></script>
+        <script src='js/rooms.service.js'></script>
+
+  </body>
+
+
 </html>
