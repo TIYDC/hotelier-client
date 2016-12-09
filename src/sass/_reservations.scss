@@ -1,0 +1,32 @@
+
+ul{
+  &.reserve{
+    margin: 0 auto;
+    width: 90%;
+  }
+
+
+  h5.panel-heading{
+    margin-top: 0;
+  }
+
+  button{
+    color: #ee0c0c;
+  }
+
+  li.panel{
+    width:275px;
+    float: left;
+    margin-left: 10px;
+  }
+
+  button.btn{
+    float: right;
+  }
+
+
+}
+
+footer{
+  clear:both;
+}
