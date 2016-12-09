@@ -1,0 +1,13 @@
+<p>Create Guest</p>
+
+<form name='cguest' ng-submit='cguest.$valid && guest.createGuest(guest.newGuest)'>
+  <label for="Full Name"></label>
+  <input ng-model='guest.newGuest.fullName' type="text" name="First Name" placeholder="Full Name" id='Full Name'>
+  <label for="Email"></label>
+  <input ng-model='guest.newGuest.email' type="email" name="email" placeholder="Email" id='Email'>
+  <label for="PhoneNumber"></label>
+  <input ng-model='guest.newGuest.phone' type="number" name="PhoneNumber" placeholder="Phone Number" id='PhoneNumber'>
+  <input ng-model='guest.newGuest.token' type="text">
+  <input type="submit" value="Submit">
+
+</form>
