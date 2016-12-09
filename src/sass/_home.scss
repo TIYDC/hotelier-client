@@ -1,0 +1,30 @@
+body {
+  background-color: #222;
+}
+
+main {
+  background-color: #fff;
+  padding: 25px;
+
+}
+.doors {
+  width: 200px;
+  float: left;
+  margin-right: 15px;
+}
+
+.about {
+  font-family: $themeFont;
+  font-weight: normal;
+}
+
+/* media styles*/
+
+/* tablet styles*/
+@media screen and (min-width: 629px){
+  main {
+    .doors{
+      width: 350px;
+    }
+}
+}
