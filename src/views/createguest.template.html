@@ -1,0 +1,12 @@
+<h1 class='h1cguest'>Create Guest</h1>
+
+<form class='cguest' name='cguest' ng-submit='cguest.$valid && guest.createGuest(guest.newGuest)'>
+  <label for='Full Name'>Full Name</label>
+  <input ng-model='guest.newGuest.fullName' type='text' name='First Name' placeholder='Full Name' id='Full Name'>
+  <label for='Email'>Email</label>
+  <input ng-model='guest.newGuest.email' type='email' name='email' placeholder='Email' id='Email'>
+  <label for='PhoneNumber'>Phone Number</label>
+  <input ng-model='guest.newGuest.phone' type='number' name='PhoneNumber' placeholder='Phone Number' id='PhoneNumber'>
+  <input class='btn btn-info' type='submit' value='Submit'>
+
+</form>
