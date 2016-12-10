@@ -1,0 +1,30 @@
+.reservationID {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.allrooms::after {
+  margin: 0 auto;
+  width: 70%;
+  content: '';
+  display: block;
+  clear: both;
+}
+.eachroom {
+  list-style: none;
+  border: 2px solid #d4d4d4;
+  border-radius: 15px;
+  width: 220px;
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  &:hover {
+      background-color: #6b1a16;
+      color: #ffffff;
+  }
+}
+
+.roomborders {
+  padding: 25px;
+  margin: 0;
+}
