@@ -1,0 +1,10 @@
+<h1 class='h1login'>Staff Log in</h1>
+
+<form class='loginstaff' name='staffer' ng-submit='staffer.$valid && login.staffLogin(login.staff)'>
+  <label class='loginlabel' for="Email">Email</label>
+  <input class='logininput' ng-model='login.staff.email' type='text' placeholder='Email Address' id='Email'>
+  <label class='loginlabel' for="Password">Password</label>
+  <input class='logininput'ng-model='login.staff.password' type='password' placeholder='Password' id='Password'>
+  <input class='btn btn-info' type='submit' name='' value='Submit'>
+
+</form>
