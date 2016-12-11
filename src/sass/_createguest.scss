@@ -1,0 +1,24 @@
+.cguest {
+margin: 0 auto;
+width: $formWidth;
+padding-left: $formPadding;
+}
+
+.cguestinput:not(.btn) {
+  width: $formInputWidth;
+}
+
+.cguestlabel {
+  display: block;
+}
+
+.btn {
+  display: block;
+  margin-top: $formCreateBtn;
+}
+
+.h1cguest {
+  font-size: $fontSize2;
+  padding: $formCreateHeaderPadding;
+  margin-bottom: $formCreateHeaderMargin;
+}
