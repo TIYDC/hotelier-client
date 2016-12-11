@@ -1,0 +1,43 @@
+.navbar-inverse{
+  background-color: $themeColor2;
+  border-color: $themeColor1;
+
+}
+
+
+header {
+
+    &.banner{
+      background-image: url('../img/red-wall.jpg');
+      background-size:contain;
+      color: $themeColor1;
+      border-radius: 4px;
+
+    }
+
+
+    h1 {
+      margin: 0;
+      padding-top: $paddingTop;
+    }
+
+    h2 {
+      font-size: $fontSize1;
+    }
+
+    ul {
+      list-style: none;
+      padding:0;
+    }
+
+    a {
+      color: $themeColor3;
+    }
+
+    li {
+      padding-bottom: $paddingBottom;
+      display: inline;
+      margin-left: $headerMarginLeft;
+    }
+
+}
