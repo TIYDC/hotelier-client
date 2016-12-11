@@ -1,0 +1,40 @@
+.navbar-inverse{
+  background-color: #b0b0b6;
+}
+
+
+header {
+
+    &.banner{
+      background-image: url('../img/red-wall.jpg');
+      background-size:contain;
+      color: #FFFFFF;
+      border-radius: 4px;
+    }
+
+
+    h1 {
+      margin: 0;
+      padding-top: 15px;
+    }
+
+    h2 {
+      font-size: 1em;
+    }
+
+    ul {
+      list-style: none;
+      padding:0;
+    }
+
+    a {
+      color: #222222;
+    }
+
+    li {
+      padding-bottom: 10px;
+      display: inline;
+      margin-left: 5px;
+    }
+
+}
