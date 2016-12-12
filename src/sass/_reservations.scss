@@ -1,0 +1,37 @@
+
+ul{
+  &.reserve{
+    margin: 0 auto;
+    width: $reservationUlWidth;
+  }
+
+
+  h5.panel-heading{
+    margin-top: 0;
+  }
+
+  button{
+    color: $themeColor4;
+  }
+
+  li.panel{
+    width: $reservationliWidth;
+    float: left;
+    margin-left: $reservationMarginLeft;
+  }
+
+  button.btn{
+    float: right;
+  }
+
+
+}
+
+footer{
+  clear:both;
+}
+
+h3 {
+  margin-left: $reservationh3Margin;
+  margin-bottom: $reservationh3Margin;
+}
