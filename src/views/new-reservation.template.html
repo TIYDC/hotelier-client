@@ -1,0 +1,22 @@
+<h3>Create New Reservation</h3>
+
+
+<form class='newreservation' name="newResForm" ng-submit=" newResForm.$valid && newRes.callCreateRes(newRes.newReservation)">
+
+  <label for='check-in'>Check-in Date</label>
+  <input ng-model='newRes.newReservation.checkinDate' type='date' name='checkinDate' id='check-in'>
+
+  <label for='check-out'>Check-out Date</label>
+  <input ng-model='newRes.newReservation.checkoutDate' type='date' name='checkoutDate' id='check-out'>
+
+  <label for='numberOfGuest'>Number of Guest</label>
+  <input ng-model='newRes.newReservation.numberOfGuests' type='number' name='numberOfGuests' id='numberOfGuest' min='0'>
+
+  <label for='guestID'>Guest ID</label>
+  <input ng-model='newRes.newReservation.guestId' type='text' name='guestId' id='guestID'>
+
+  <label for='roomID'>Room ID</label>
+  <input ng-model='newRes.newReservation.roomId' type='text' name='roomId' id='roomID'>
+
+  <input class='btn btn-info' type='submit' name='Make Reservation' value='Submit'></input>
+</form>
