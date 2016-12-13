@@ -1,0 +1,13 @@
+.newreservation {
+  margin: 0 auto;
+  width: $formWidth;
+  padding-left: $formPadding;
+
+
+  input:not(.btn) {
+    width: $formInputWidth;
+  }
+
+
+
+}

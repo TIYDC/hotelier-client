@@ -1,0 +1,13 @@
+<h3>Upcoming Reservations</h3>
+
+
+<ul class="reserve">
+  <li class="panel panel-info list-unstyled" ng-repeat="reservation in allRes.reservations">
+      <h5 class="panel-heading">{{reservation.checkinDate | date: 'M/dd/yyyy'}} - Room #{{reservation.room.number}}</h5>
+        <section class="panel-body">
+          <p>Guest: {{reservation.guest.fullName}} ({{reservation.numberOfGuests}})</p>
+          <button class="btn btn-danger" type="button" name="button">Delete</button>
+          <p>Check out: {{reservation.checkoutDate | date: 'M/dd/yyyy'}}</p>
+        </section>
+  </li>
+</ul>
