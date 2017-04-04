@@ -24,5 +24,3 @@ before merging into `master`.
 ## API Information
 
 The base URL for the data API is `https://panda-hotelier-api.herokuapp.com/api/`
-
-Starting html header
