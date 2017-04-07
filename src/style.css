@@ -1,0 +1,38 @@
+header {
+  background-image: url(images/red-wall.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white; }
+  header h1 {
+    margin-top: 0;
+    padding-top: 1.5em; }
+
+.wip h1 {
+  font-size: 32pt; }
+
+.room-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .room-list article {
+    width: 45%;
+    text-align: center;
+    border: 1px solid #666666;
+    border-radius: 0.5em;
+    margin: 1em 0; }
+    .room-list article:hover {
+      background-color: #711512;
+      color: #ffffff; }
+  .room-list footer {
+    background: none;
+    color: #666;
+    font-size: 0.9em; }
+
+footer {
+  background-color: grey;
+  color: white;
+  height: 3em; }
+  footer h5 {
+    padding-top: 1em; }
+
+/*# sourceMappingURL=style.css.map */
