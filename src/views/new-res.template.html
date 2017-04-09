@@ -1,0 +1,25 @@
+<h2>Create New Reservation</h2>
+
+<form ng-submit='resCtrl.createRes(resCtrl.reservation)' class='form-group col-lg-8'>
+
+  <label for='checkinDate'>Check In</label>
+  <input type='date' name='checkinDate' class='form-control' ng-model='resCtrl.reservation.checkinDate'>
+
+  <label for='checkoutDate'>Check Out</label>
+  <input type='date' name='checkoutDate' class='form-control' ng-model='resCtrl.reservation.checkoutDate'>
+
+  <label for='numberOfGuests'>Number Of Guests</label>
+  <input type='number' min='1' name='numberOfGuests' class='form-control'
+         ng-model='resCtrl.reservation.numberOfGuests' placeholder='1'>
+
+  <label for='guestId'>Guest</label>
+  <input type='text' name=guestId class='form-control'
+         ng-model='resCtrl.reservation.guestId' placeholder='Guest ID #'>
+
+  <label for='roomId'>Room</label>
+  <input type='text' name='roomId' class='form-control'
+         ng-model='resCtrl.reservation.roomId' placeholder='Room ID #'>
+
+  <button type='submit' name='createReservation' class='btn btn-default'>Make Reservation</button>
+
+</form>
