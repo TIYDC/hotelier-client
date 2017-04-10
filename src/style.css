@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+header {
+  background-image: url("/images/red-wall.jpg");
+  background-size: 100% auto;
+  color: white; }
+  header h1 {
+    font-size: 4em;
+    font-weight: normal;
+    text-shadow: 2px 2px 4px #8e8e8e; }
+  header h2 {
+    font-size: 1.5em;
+    font-weight: normal; }
+
+body {
+  font-family: 'Open Sans', 'sans-serif'; }
+
+main {
+  color: black; }
+
+.find-reservation {
+  height: auto;
+  margin-bottom: 2em; }
+  .find-reservation .form-group {
+    display: flex;
+    justify-content: space-between; }
+  .find-reservation input {
+    width: 48%; }
+
+section {
+  display: flex;
+  justify-content: space-between; }
+
+.box {
+  text-align: center;
+  margin: 2em;
+  flex: 48%;
+  border: 2px solid black;
+  height: auto;
+  width: 10em; }
+
+.box:hover {
+  background-color: red; }
+
+.single-reservation {
+  color: black;
+  text-align: center; }
+  .single-reservation .guest-info, .single-reservation .room-info {
+    width: 50%;
+    border: 1px solid #b4b4b4;
+    border-radius: 0.3em;
+    margin: 1em auto; }
+  .single-reservation .dates {
+    font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */

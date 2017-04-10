@@ -1,0 +1,28 @@
+<h2>Home</h2>
+
+
+<form name='findReservation'
+      class='form-inline find-reservation'
+      ng-submit='findReservation.$valid && guestResCtrl.singleReservation(guestResCtrl.reservationId.id)'
+      novalidate>
+
+  <p ng-show='findReservation.reservationId.$touched && !findReservation.reservationId.$valid'
+     ng-cloak
+     class='alert alert-warning'>
+    Please enter a reservation ID to find!
+  </p>
+
+  <aside class='form-group'>
+    <input type='text' name='reservationId' ng-model='guestResCtrl.reservationId.id' placeholder='Reservation ID' class='form-control' required>
+    <input type='submit' value='Find reservation' class='btn btn-primary'>
+  </aside>
+
+</form>
+
+<section ng-controller="UpcomingReservationController as upcomingreservationCtrl">
+<fieldset class="box" ng-repeat='reservation in upcomingreservationCtrl.reservations'>
+    <p>{{reservation.room.number}}</p>
+    <p>{{reservation.room.maxOccupancy}}</p>
+    <p>{{reservation.room.rate}}</p>
+</fieldset>
+</section>
